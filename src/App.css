@@ -1,3 +1,38 @@
 .App{
   color: black;
+  display: flex;
+  flex-direction: column;
+  
+}
+.title{
+  text-align: center;
+}
+
+.poster1{
+  display: flex;
+  
+}
+.poster1para{
+  position: relative;
+  text-align: center;
+  font-family:'Amiri', serif;
+  font-weight: 400;    
+  font-size: 30px; 
+}
+img {
+  border-radius: 10px;
+}
+.poster2{
+  align-items: center;
+}
+.poster2para, p{
+  position: relative;
+  text-align: center;
+  font-family:'Amiri', serif;
+  font-weight: 100;    
+  font-size: 30px;
+}
+.imgKofin{
+  display: flex;
+  justify-content: center;
 }
